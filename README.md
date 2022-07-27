@@ -4,13 +4,15 @@ Sorting is one of the fundamental computational challenges for data center appli
 Many relational database system operations such as order by, group by and sort-merge join rely on high-performance sorting. 
 In the era of data explosion, large-scale sorting is becoming a non-trivial performance bottleneck in data centers. As a result, designing an efﬁcient large-scale sorting solution is crucial for the data center system architects.
 
+__Presentation:__ [Click here](https://docs.google.com/presentation/d/1zuXv_oRBAJfmMvWH1FSqmfayOon1nORaB3QYKMksqSY/edit?usp=sharing)
+
 ## Bitonic Sort:
 - The algorithm was devised by Ken Batcher. 
 - It is a parallel sorting algorithm. 
 - It follows divide and conquer approach.
 - Bitonic Sort involves Two stages - Bitonic Sort and Bitonic Merge.
-    - Stage 1: Bitonic Sort is forming a bitonic sequence. A sequence is called Bitonic if it is first increasing, then decreasing.
-    - Stage 2: Bitonic Merge is creating one sorted sequence from bitonic sequence.
+    - __Stage 1:__ Bitonic Sort is forming a bitonic sequence. A sequence is called Bitonic if it is first increasing, then decreasing.
+    - __Stage 2:__ Bitonic Merge is creating one sorted sequence from bitonic sequence.
 
 
 ## Advantages of Bitonic Sort in hardware:
